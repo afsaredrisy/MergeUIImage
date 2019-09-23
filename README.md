@@ -1,6 +1,6 @@
 # MergeUIImage
 
-[![CI Status](https://img.shields.io/travis/afsaredrisy/MergeUIImage.svg?style=flat)](https://travis-ci.org/afsaredrisy/MergeUIImage)
+[!Pod](https://img.shields.io/badge/Pod%3F-1.7.5-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Version](https://img.shields.io/badge/Version%3F-0.1.0-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform%3F-Swift-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
