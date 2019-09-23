@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129EC88F233931E9004A8D1E /* UIImage+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129EC88E233931E9004A8D1E /* UIImage+Merge.swift */; };
 		283A77CD94274A67139A6A4980544078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		285155093D4EE67EAFA23E5E77A8364E /* Pods-MergeUIImage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725D35D0BEBD6434690B0A2622C56F26 /* Pods-MergeUIImage_Example-dummy.m */; };
-		385D9D3E4DE43D91EF75424166E64109 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC69236940F121A312386F2B46B3EF3 /* ReplaceMe.swift */; };
 		5A1C1D4BAD1F09355520E3DCD5D9D86B /* Pods-MergeUIImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9373800AB27B1E9A7EDB106D9D76A3F7 /* Pods-MergeUIImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B036313B1B1689DFCFB78912CC962E7 /* MergeUIImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDBEE3959BB9D228A996757EA3A43F2 /* MergeUIImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3199C9E36753419C8685265AD839BA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -38,12 +38,13 @@
 
 /* Begin PBXFileReference section */
 		0F5EE879C2BFABE1496FA477460024D2 /* Pods-MergeUIImage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MergeUIImage_Example-umbrella.h"; sourceTree = "<group>"; };
+		129EC88E233931E9004A8D1E /* UIImage+Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Merge.swift"; sourceTree = "<group>"; };
 		1832255DE3146D5A443A9FA66B35B9B9 /* MergeUIImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MergeUIImage-Info.plist"; sourceTree = "<group>"; };
 		1B3A01ABE26126928D72C3CDF7044FC4 /* Pods-MergeUIImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2A5D49FAD626DEE4F1F797AB9E2C8855 /* MergeUIImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MergeUIImage.modulemap; sourceTree = "<group>"; };
 		2DD37023EE706567DE2FEC927DAFF8FA /* Pods-MergeUIImage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeUIImage_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		47ED3DC2F432EF512F42F80A9B7A1354 /* MergeUIImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MergeUIImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47ED3DC2F432EF512F42F80A9B7A1354 /* MergeUIImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MergeUIImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4BDBEE3959BB9D228A996757EA3A43F2 /* MergeUIImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeUIImage-umbrella.h"; sourceTree = "<group>"; };
 		56B90B2D73B2E6678DB20F815C092B7B /* Pods-MergeUIImage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MergeUIImage_Tests.modulemap"; sourceTree = "<group>"; };
 		672875E24FB6F589A8FD0F993CF1524B /* Pods-MergeUIImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,22 +54,21 @@
 		93557FF32912FD633BF13F643CF3054D /* Pods-MergeUIImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MergeUIImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9373800AB27B1E9A7EDB106D9D76A3F7 /* Pods-MergeUIImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MergeUIImage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		95FAF4BA59BCA84497DAA485EA6D3E04 /* Pods-MergeUIImage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MergeUIImage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9CC69236940F121A312386F2B46B3EF3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MergeUIImage/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9D2EB4DA78A70425B12A28E18E9E72F4 /* Pods-MergeUIImage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeUIImage_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A86CCA60DC0A3B33448F8D97D7025FF0 /* Pods_MergeUIImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MergeUIImage_Example.framework; path = "Pods-MergeUIImage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B10FCAF147EFD73BE719A1D2C1F9AFA3 /* Pods_MergeUIImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MergeUIImage_Tests.framework; path = "Pods-MergeUIImage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8E1312B14E65D48C8E9349BEE7143F3 /* MergeUIImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MergeUIImage.framework; path = MergeUIImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86CCA60DC0A3B33448F8D97D7025FF0 /* Pods_MergeUIImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeUIImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10FCAF147EFD73BE719A1D2C1F9AFA3 /* Pods_MergeUIImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeUIImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E1312B14E65D48C8E9349BEE7143F3 /* MergeUIImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MergeUIImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAE4E382AD5D4C80F0703A4A53BF388 /* Pods-MergeUIImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeUIImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C43A1039C32B013AFE4657836494060E /* Pods-MergeUIImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D7A6BF3434224CB2B6065CDBF3E1A051 /* MergeUIImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MergeUIImage.xcconfig; sourceTree = "<group>"; };
 		DDE67F306EB77DDC610D540A005300D2 /* Pods-MergeUIImage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MergeUIImage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EDCF3D06576364F51FDDF9E934910B51 /* Pods-MergeUIImage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MergeUIImage_Example.modulemap"; sourceTree = "<group>"; };
-		F1249DE26D3F9B77AC0D3AA67639901C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F1249DE26D3F9B77AC0D3AA67639901C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F18B73841F45BDC1F8F3C50826FA465F /* Pods-MergeUIImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F959ACEA5B5C835EE9A6DD327AFB3405 /* MergeUIImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MergeUIImage-dummy.m"; sourceTree = "<group>"; };
 		FDC1B03F0D052E2733A4EE3682C0933C /* MergeUIImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeUIImage-prefix.pch"; sourceTree = "<group>"; };
-		FEBC3C3B22871AFF59AF98D344D8CB9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FEBC3C3B22871AFF59AF98D344D8CB9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		129EC88D233931B6004A8D1E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				129EC88E233931E9004A8D1E /* UIImage+Merge.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		56F42D699E8370364F59A0B6BA260301 /* MergeUIImage */ = {
 			isa = PBXGroup;
 			children = (
-				9CC69236940F121A312386F2B46B3EF3 /* ReplaceMe.swift */,
+				129EC88D233931B6004A8D1E /* Source */,
 				8F28859BE396C71377129A0AF06996CD /* Pod */,
 				7674728586C708E2BEA26133BB76C7AC /* Support Files */,
 			);
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0AD3659CB7014417A59F0375AA176209 = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -380,8 +393,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129EC88F233931E9004A8D1E /* UIImage+Merge.swift in Sources */,
 				DA22A471ED588743700D588484189034 /* MergeUIImage-dummy.m in Sources */,
-				385D9D3E4DE43D91EF75424166E64109 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7A6BF3434224CB2B6065CDBF3E1A051 /* MergeUIImage.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,7 +441,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -588,8 +603,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -696,6 +710,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7A6BF3434224CB2B6065CDBF3E1A051 /* MergeUIImage.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -716,7 +731,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

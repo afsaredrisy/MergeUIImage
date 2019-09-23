@@ -7,17 +7,35 @@
 //
 
 import UIKit
-
+import MergeUIImage
 class ViewController: UIViewController {
 
+    @IBOutlet weak var resultImageView: UIImageView!
+    @IBOutlet weak var maskImageView: UIImageView!
+    @IBOutlet weak var backgroungImageView: UIImageView!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        guard let bg = backgroungImageView.image else{
+            
+            fatalError("Background image not found")
+            
+        }
+        guard let mask = maskImageView.image else {
+            fatalError("Mask image not found")
+        }
+        
+        let result = mask.overLay(original: bg, mask: mask)
+            resultImageView.image = result
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
 
 }

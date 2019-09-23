@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MergeUIImage'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MergeUIImage.'
+  s.summary          = 'MergeUIImage is a merge image operation in one line of code.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This library can use for basic image operations like Overlay two UIImages , merge , resize etc.'
                        DESC
 
   s.homepage         = 'https://github.com/afsaredrisy/MergeUIImage'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+   s.screenshots     = 'https://nsobject.s3.us-east-2.amazonaws.com/coco.jpeg'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'afsaredrisy' => 'afsaredrisz@icloud.com' }
   s.source           = { :git => 'https://github.com/afsaredrisy/MergeUIImage.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.linkedin.com/in/afsar-ahmad-27332aa0/'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MergeUIImage/Classes/**/*'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'MergeUIImage' => ['MergeUIImage/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
