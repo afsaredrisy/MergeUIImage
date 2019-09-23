@@ -1,0 +1,16 @@
+PODS:
+  - MergeUIImage (0.1.0)
+
+DEPENDENCIES:
+  - MergeUIImage (from `../`)
+
+EXTERNAL SOURCES:
+  MergeUIImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MergeUIImage: 6fdd5f84fc1583292d55c134ffb5032dc706539f
+
+PODFILE CHECKSUM: 2b54557577d65199a5d1b542c1e62170a11fbf3c
+
+COCOAPODS: 1.7.5

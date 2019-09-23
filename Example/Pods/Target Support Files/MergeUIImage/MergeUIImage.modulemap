@@ -1,0 +1,6 @@
+framework module MergeUIImage {
+  umbrella header "MergeUIImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

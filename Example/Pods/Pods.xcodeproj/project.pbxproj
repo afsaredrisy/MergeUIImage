@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283A77CD94274A67139A6A4980544078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		285155093D4EE67EAFA23E5E77A8364E /* Pods-MergeUIImage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725D35D0BEBD6434690B0A2622C56F26 /* Pods-MergeUIImage_Example-dummy.m */; };
+		385D9D3E4DE43D91EF75424166E64109 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC69236940F121A312386F2B46B3EF3 /* ReplaceMe.swift */; };
+		5A1C1D4BAD1F09355520E3DCD5D9D86B /* Pods-MergeUIImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9373800AB27B1E9A7EDB106D9D76A3F7 /* Pods-MergeUIImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B036313B1B1689DFCFB78912CC962E7 /* MergeUIImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDBEE3959BB9D228A996757EA3A43F2 /* MergeUIImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3199C9E36753419C8685265AD839BA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B521BBAAA073110EA00EF3AE03994C40 /* Pods-MergeUIImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79517AA3F54949193A0582EB4B05E206 /* Pods-MergeUIImage_Tests-dummy.m */; };
+		DA22A471ED588743700D588484189034 /* MergeUIImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F959ACEA5B5C835EE9A6DD327AFB3405 /* MergeUIImage-dummy.m */; };
+		E5B42BF5814E1A2C6877201764C15C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAD19DBEA3997DA9F8B1FD9E8FF20FFB /* Pods-MergeUIImage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5EE879C2BFABE1496FA477460024D2 /* Pods-MergeUIImage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		617EDA0971514DE2D8CBDECC002B4887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003465300BB0CFF5885ADCE5905A300C;
+			remoteInfo = "Pods-MergeUIImage_Example";
+		};
+		973CA29EDDA6107227A9219BC6F86657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD3659CB7014417A59F0375AA176209;
+			remoteInfo = MergeUIImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5EE879C2BFABE1496FA477460024D2 /* Pods-MergeUIImage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MergeUIImage_Example-umbrella.h"; sourceTree = "<group>"; };
+		1832255DE3146D5A443A9FA66B35B9B9 /* MergeUIImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MergeUIImage-Info.plist"; sourceTree = "<group>"; };
+		1B3A01ABE26126928D72C3CDF7044FC4 /* Pods-MergeUIImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A5D49FAD626DEE4F1F797AB9E2C8855 /* MergeUIImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MergeUIImage.modulemap; sourceTree = "<group>"; };
+		2DD37023EE706567DE2FEC927DAFF8FA /* Pods-MergeUIImage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeUIImage_Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47ED3DC2F432EF512F42F80A9B7A1354 /* MergeUIImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MergeUIImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4BDBEE3959BB9D228A996757EA3A43F2 /* MergeUIImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeUIImage-umbrella.h"; sourceTree = "<group>"; };
+		56B90B2D73B2E6678DB20F815C092B7B /* Pods-MergeUIImage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MergeUIImage_Tests.modulemap"; sourceTree = "<group>"; };
+		672875E24FB6F589A8FD0F993CF1524B /* Pods-MergeUIImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		690FE8472D85AAD7EEEA7CF4183EC863 /* Pods-MergeUIImage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeUIImage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		725D35D0BEBD6434690B0A2622C56F26 /* Pods-MergeUIImage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MergeUIImage_Example-dummy.m"; sourceTree = "<group>"; };
+		79517AA3F54949193A0582EB4B05E206 /* Pods-MergeUIImage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MergeUIImage_Tests-dummy.m"; sourceTree = "<group>"; };
+		93557FF32912FD633BF13F643CF3054D /* Pods-MergeUIImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MergeUIImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9373800AB27B1E9A7EDB106D9D76A3F7 /* Pods-MergeUIImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MergeUIImage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		95FAF4BA59BCA84497DAA485EA6D3E04 /* Pods-MergeUIImage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MergeUIImage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CC69236940F121A312386F2B46B3EF3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MergeUIImage/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D2EB4DA78A70425B12A28E18E9E72F4 /* Pods-MergeUIImage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeUIImage_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86CCA60DC0A3B33448F8D97D7025FF0 /* Pods_MergeUIImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MergeUIImage_Example.framework; path = "Pods-MergeUIImage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10FCAF147EFD73BE719A1D2C1F9AFA3 /* Pods_MergeUIImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MergeUIImage_Tests.framework; path = "Pods-MergeUIImage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E1312B14E65D48C8E9349BEE7143F3 /* MergeUIImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MergeUIImage.framework; path = MergeUIImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE4E382AD5D4C80F0703A4A53BF388 /* Pods-MergeUIImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MergeUIImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C43A1039C32B013AFE4657836494060E /* Pods-MergeUIImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D7A6BF3434224CB2B6065CDBF3E1A051 /* MergeUIImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MergeUIImage.xcconfig; sourceTree = "<group>"; };
+		DDE67F306EB77DDC610D540A005300D2 /* Pods-MergeUIImage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MergeUIImage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EDCF3D06576364F51FDDF9E934910B51 /* Pods-MergeUIImage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MergeUIImage_Example.modulemap"; sourceTree = "<group>"; };
+		F1249DE26D3F9B77AC0D3AA67639901C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F18B73841F45BDC1F8F3C50826FA465F /* Pods-MergeUIImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MergeUIImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F959ACEA5B5C835EE9A6DD327AFB3405 /* MergeUIImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MergeUIImage-dummy.m"; sourceTree = "<group>"; };
+		FDC1B03F0D052E2733A4EE3682C0933C /* MergeUIImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MergeUIImage-prefix.pch"; sourceTree = "<group>"; };
+		FEBC3C3B22871AFF59AF98D344D8CB9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF7F43A676F86AF94D5CFEC207CCDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3199C9E36753419C8685265AD839BA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F01F19DE31ADB4083984FC18D2EE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283A77CD94274A67139A6A4980544078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7854C056B7EA9473219099AB780EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B42BF5814E1A2C6877201764C15C31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F42D699E8370364F59A0B6BA260301 /* MergeUIImage */ = {
+			isa = PBXGroup;
+			children = (
+				9CC69236940F121A312386F2B46B3EF3 /* ReplaceMe.swift */,
+				8F28859BE396C71377129A0AF06996CD /* Pod */,
+				7674728586C708E2BEA26133BB76C7AC /* Support Files */,
+			);
+			name = MergeUIImage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7674728586C708E2BEA26133BB76C7AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A5D49FAD626DEE4F1F797AB9E2C8855 /* MergeUIImage.modulemap */,
+				D7A6BF3434224CB2B6065CDBF3E1A051 /* MergeUIImage.xcconfig */,
+				F959ACEA5B5C835EE9A6DD327AFB3405 /* MergeUIImage-dummy.m */,
+				1832255DE3146D5A443A9FA66B35B9B9 /* MergeUIImage-Info.plist */,
+				FDC1B03F0D052E2733A4EE3682C0933C /* MergeUIImage-prefix.pch */,
+				4BDBEE3959BB9D228A996757EA3A43F2 /* MergeUIImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MergeUIImage";
+			sourceTree = "<group>";
+		};
+		8F28859BE396C71377129A0AF06996CD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1249DE26D3F9B77AC0D3AA67639901C /* LICENSE */,
+				47ED3DC2F432EF512F42F80A9B7A1354 /* MergeUIImage.podspec */,
+				FEBC3C3B22871AFF59AF98D344D8CB9F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AAAC89C5EB57B05686213AB969ED30BA /* Pods-MergeUIImage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56B90B2D73B2E6678DB20F815C092B7B /* Pods-MergeUIImage_Tests.modulemap */,
+				93557FF32912FD633BF13F643CF3054D /* Pods-MergeUIImage_Tests-acknowledgements.markdown */,
+				BCAE4E382AD5D4C80F0703A4A53BF388 /* Pods-MergeUIImage_Tests-acknowledgements.plist */,
+				79517AA3F54949193A0582EB4B05E206 /* Pods-MergeUIImage_Tests-dummy.m */,
+				2DD37023EE706567DE2FEC927DAFF8FA /* Pods-MergeUIImage_Tests-Info.plist */,
+				9373800AB27B1E9A7EDB106D9D76A3F7 /* Pods-MergeUIImage_Tests-umbrella.h */,
+				F18B73841F45BDC1F8F3C50826FA465F /* Pods-MergeUIImage_Tests.debug.xcconfig */,
+				1B3A01ABE26126928D72C3CDF7044FC4 /* Pods-MergeUIImage_Tests.release.xcconfig */,
+			);
+			name = "Pods-MergeUIImage_Tests";
+			path = "Target Support Files/Pods-MergeUIImage_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C25924231F3192BD097B472F41DA591C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56F42D699E8370364F59A0B6BA260301 /* MergeUIImage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C25924231F3192BD097B472F41DA591C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FF0FCBA3DE86B6BA8F1ECC21A1DBCB91 /* Products */,
+				EB4D6DBBD8BE4003C3B79F62BE0DBAD4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB4D6DBBD8BE4003C3B79F62BE0DBAD4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B84131B3FABE8F3158A46407F05542 /* Pods-MergeUIImage_Example */,
+				AAAC89C5EB57B05686213AB969ED30BA /* Pods-MergeUIImage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5B84131B3FABE8F3158A46407F05542 /* Pods-MergeUIImage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF3D06576364F51FDDF9E934910B51 /* Pods-MergeUIImage_Example.modulemap */,
+				95FAF4BA59BCA84497DAA485EA6D3E04 /* Pods-MergeUIImage_Example-acknowledgements.markdown */,
+				690FE8472D85AAD7EEEA7CF4183EC863 /* Pods-MergeUIImage_Example-acknowledgements.plist */,
+				725D35D0BEBD6434690B0A2622C56F26 /* Pods-MergeUIImage_Example-dummy.m */,
+				DDE67F306EB77DDC610D540A005300D2 /* Pods-MergeUIImage_Example-frameworks.sh */,
+				9D2EB4DA78A70425B12A28E18E9E72F4 /* Pods-MergeUIImage_Example-Info.plist */,
+				0F5EE879C2BFABE1496FA477460024D2 /* Pods-MergeUIImage_Example-umbrella.h */,
+				672875E24FB6F589A8FD0F993CF1524B /* Pods-MergeUIImage_Example.debug.xcconfig */,
+				C43A1039C32B013AFE4657836494060E /* Pods-MergeUIImage_Example.release.xcconfig */,
+			);
+			name = "Pods-MergeUIImage_Example";
+			path = "Target Support Files/Pods-MergeUIImage_Example";
+			sourceTree = "<group>";
+		};
+		FF0FCBA3DE86B6BA8F1ECC21A1DBCB91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E1312B14E65D48C8E9349BEE7143F3 /* MergeUIImage.framework */,
+				A86CCA60DC0A3B33448F8D97D7025FF0 /* Pods_MergeUIImage_Example.framework */,
+				B10FCAF147EFD73BE719A1D2C1F9AFA3 /* Pods_MergeUIImage_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3877F4BD0F7FEF0DB34C19C8BA656222 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B036313B1B1689DFCFB78912CC962E7 /* MergeUIImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4285E9A08E85D604930977526C10CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD19DBEA3997DA9F8B1FD9E8FF20FFB /* Pods-MergeUIImage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5451BFE458E07D0569A2C671D3F07B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1C1D4BAD1F09355520E3DCD5D9D86B /* Pods-MergeUIImage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		003465300BB0CFF5885ADCE5905A300C /* Pods-MergeUIImage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E988FC7AE6F61EF8537B4888C7C409CB /* Build configuration list for PBXNativeTarget "Pods-MergeUIImage_Example" */;
+			buildPhases = (
+				6D4285E9A08E85D604930977526C10CF /* Headers */,
+				3173C43B266802064350027953E5EC0B /* Sources */,
+				2AF7F43A676F86AF94D5CFEC207CCDF4 /* Frameworks */,
+				A44BB344E4FED8BA694BFC8EC9605518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355D733228DDB39D077435ECBE0F4FF6 /* PBXTargetDependency */,
+			);
+			name = "Pods-MergeUIImage_Example";
+			productName = "Pods-MergeUIImage_Example";
+			productReference = A86CCA60DC0A3B33448F8D97D7025FF0 /* Pods_MergeUIImage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AD3659CB7014417A59F0375AA176209 /* MergeUIImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C483417DE7AB7C1559CBA894A0E4D371 /* Build configuration list for PBXNativeTarget "MergeUIImage" */;
+			buildPhases = (
+				3877F4BD0F7FEF0DB34C19C8BA656222 /* Headers */,
+				D9670D85F982307E7EF665FEEAF5E593 /* Sources */,
+				33F01F19DE31ADB4083984FC18D2EE4A /* Frameworks */,
+				8BC8C3B01796AEF0CD91B8FD458A7783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeUIImage;
+			productName = MergeUIImage;
+			productReference = B8E1312B14E65D48C8E9349BEE7143F3 /* MergeUIImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7676A013D921966B0BBFF4B963555AB5 /* Pods-MergeUIImage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350E85864D00FCF9F05CBD451F951F69 /* Build configuration list for PBXNativeTarget "Pods-MergeUIImage_Tests" */;
+			buildPhases = (
+				B5451BFE458E07D0569A2C671D3F07B3 /* Headers */,
+				A237E24A0BFA89964F12A664BCF0C3F4 /* Sources */,
+				CE7854C056B7EA9473219099AB780EEB /* Frameworks */,
+				2F7B267D367FA50AF09EF1BEFE8FF33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D993077DC753016F03884BED0705BDA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MergeUIImage_Tests";
+			productName = "Pods-MergeUIImage_Tests";
+			productReference = B10FCAF147EFD73BE719A1D2C1F9AFA3 /* Pods_MergeUIImage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FF0FCBA3DE86B6BA8F1ECC21A1DBCB91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD3659CB7014417A59F0375AA176209 /* MergeUIImage */,
+				003465300BB0CFF5885ADCE5905A300C /* Pods-MergeUIImage_Example */,
+				7676A013D921966B0BBFF4B963555AB5 /* Pods-MergeUIImage_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7B267D367FA50AF09EF1BEFE8FF33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC8C3B01796AEF0CD91B8FD458A7783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44BB344E4FED8BA694BFC8EC9605518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3173C43B266802064350027953E5EC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285155093D4EE67EAFA23E5E77A8364E /* Pods-MergeUIImage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A237E24A0BFA89964F12A664BCF0C3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B521BBAAA073110EA00EF3AE03994C40 /* Pods-MergeUIImage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9670D85F982307E7EF665FEEAF5E593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA22A471ED588743700D588484189034 /* MergeUIImage-dummy.m in Sources */,
+				385D9D3E4DE43D91EF75424166E64109 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		355D733228DDB39D077435ECBE0F4FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MergeUIImage;
+			target = 0AD3659CB7014417A59F0375AA176209 /* MergeUIImage */;
+			targetProxy = 973CA29EDDA6107227A9219BC6F86657 /* PBXContainerItemProxy */;
+		};
+		D993077DC753016F03884BED0705BDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MergeUIImage_Example";
+			target = 003465300BB0CFF5885ADCE5905A300C /* Pods-MergeUIImage_Example */;
+			targetProxy = 617EDA0971514DE2D8CBDECC002B4887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		183A471A38816EF013D6ABE68A17EE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A6BF3434224CB2B6065CDBF3E1A051 /* MergeUIImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MergeUIImage/MergeUIImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MergeUIImage/MergeUIImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MergeUIImage/MergeUIImage.modulemap";
+				PRODUCT_MODULE_NAME = MergeUIImage;
+				PRODUCT_NAME = MergeUIImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		644E2F9B702ADC6410147ED11D467AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43A1039C32B013AFE4657836494060E /* Pods-MergeUIImage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MergeUIImage_Example/Pods-MergeUIImage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MergeUIImage_Example/Pods-MergeUIImage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F9F7B2745F6941E899DFDB3B0868832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672875E24FB6F589A8FD0F993CF1524B /* Pods-MergeUIImage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MergeUIImage_Example/Pods-MergeUIImage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MergeUIImage_Example/Pods-MergeUIImage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		840E516561A4E0414175C1205D9D9AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3A01ABE26126928D72C3CDF7044FC4 /* Pods-MergeUIImage_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MergeUIImage_Tests/Pods-MergeUIImage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MergeUIImage_Tests/Pods-MergeUIImage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE53733B0C55740846172B05B89D23B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18B73841F45BDC1F8F3C50826FA465F /* Pods-MergeUIImage_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MergeUIImage_Tests/Pods-MergeUIImage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MergeUIImage_Tests/Pods-MergeUIImage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD802DF77DDD908B8FF5B6620139ECF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A6BF3434224CB2B6065CDBF3E1A051 /* MergeUIImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MergeUIImage/MergeUIImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MergeUIImage/MergeUIImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MergeUIImage/MergeUIImage.modulemap";
+				PRODUCT_MODULE_NAME = MergeUIImage;
+				PRODUCT_NAME = MergeUIImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350E85864D00FCF9F05CBD451F951F69 /* Build configuration list for PBXNativeTarget "Pods-MergeUIImage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE53733B0C55740846172B05B89D23B0 /* Debug */,
+				840E516561A4E0414175C1205D9D9AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C483417DE7AB7C1559CBA894A0E4D371 /* Build configuration list for PBXNativeTarget "MergeUIImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183A471A38816EF013D6ABE68A17EE2A /* Debug */,
+				DD802DF77DDD908B8FF5B6620139ECF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E988FC7AE6F61EF8537B4888C7C409CB /* Build configuration list for PBXNativeTarget "Pods-MergeUIImage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9F7B2745F6941E899DFDB3B0868832 /* Debug */,
+				644E2F9B702ADC6410147ED11D467AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
