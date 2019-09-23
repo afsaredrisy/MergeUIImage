@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MergeUIImage_Example' do
+  pod 'MergeUIImage', :path => '../'
+
+  target 'MergeUIImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
