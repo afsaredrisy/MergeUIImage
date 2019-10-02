@@ -6,6 +6,8 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![alt image](https://i.imgur.com/KsFtl7q.jpg)
+
 
 ## Requirements
 Swift 5.0 
